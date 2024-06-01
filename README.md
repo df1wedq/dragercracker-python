@@ -24,13 +24,16 @@ DRAGERCRACKER to skrypt napisany w języku Python do przeprowadzania ataków bru
    pip install -r requirements.txt
 ## PRZYKŁADY
 ```bash
-python bruteforce.py http 8 http://example.com/login {"username": "admin"} 
+python bruteforce.py http 8 http://example.com/login {"username": "admin"}
+
 ```bash
 python bruteforce.py ssh 8 192.168.1.100 22 user
 ```bash
+
 python bruteforce.py ftp 8 192.168.1.100 21 user
 ```bash
 python bruteforce.py rdp 8 192.168.1.100 3389 user
+
 ```bash
 python bruteforce.py telnet 8 192.168.1.100 23 user
 # UWAGI
